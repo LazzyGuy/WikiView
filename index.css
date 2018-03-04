@@ -1,0 +1,126 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+header{
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.heading{
+
+    display: inline;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    color: lightblue;
+    font-size: 70px;
+    padding: 0;
+}
+.subheading{
+    display: inline;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 30px;
+    color: lightcoral;
+    padding: 0;
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+}
+
+.searchbar{
+    padding: 10px 100px;
+    font-size: 20px;
+    border: 1 px solid white;
+    border-radius: 40px 20px;
+    background: #000;
+    color: white;
+}
+input.searchbar:focus {
+    outline-width: 0;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+
+    background: #000;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
+
+.fcc{
+    color: green;
+    font-size: 20px;
+}
+
+.band{
+
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+}
+.band a{
+    text-decoration: none;
+    color: pink;
+    border-bottom: 1px solid pink;
+    border-top: 1px solid pink;
+    border-radius: 5px;
+}
+
+.result{
+    color: white;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.res{
+ 
+}
+
+.res a{
+    text-decoration: none;
+    border-bottom: 3px dotted #ffffff;
+    padding: 10px;
+    color: orangered;
+}
+
+.alink{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px){
+    .searchbar{
+        padding: 10px 58px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .subheading{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .heading{
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+    }
+}
